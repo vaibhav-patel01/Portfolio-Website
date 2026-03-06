@@ -88,6 +88,10 @@ const observer = new IntersectionObserver((entries) => {
         if (entry.isIntersecting) {
             entry.target.style.opacity = '1';
             entry.target.style.transform = 'translateY(0)';
+        } else {
+            // Reset the elements when they leave the viewport
+            entry.target.style.opacity = '0';
+            entry.target.style.transform = 'translateY(30px)';
         }
     });
 }, observerOptions);
