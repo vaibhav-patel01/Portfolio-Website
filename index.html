@@ -30,7 +30,7 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1 class="glitch" data-text="Vaibhav Patel">Hi, I'm Vaibhav Patel</h1>
-            <p class="subtitle">Full Stack Data Analyst | Power BI Developer</p>
+            <p class="subtitle">Data Scientist | ML Engineer | Full Stack Data Analyst | Power BI Developer</p>
             <p class="description">Transforming raw data into actionable insights through analytics and visualization</p>
           <div class="cta-buttons">
                 <a href="#projects"  class="btn btn-primary">View My Work</a>
@@ -49,9 +49,10 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>Data-driven and analytical student with proficiency in <strong>Power BI</strong>, <strong>Python</strong>, <strong>SQL Databases</strong> and <strong>Mathematics</strong>.</p>
+                    <p>Data-driven and analytical student with proficiency in <strong>Machine Learning</strong>, <strong>Power BI</strong>, <strong>Python</strong>, <strong>SQL & Vector Databases</strong> and <strong>Mathematics</strong>.</p>
                     <p>Experienced in the end-to-end data lifecycle, from cleaning and querying large datasets to developing interactive dashboards that reveal key business insights.</p>
-                    <p>Skilled at solving complex problems and supporting data-informed decision-making, making me a strong candidate for Data Analyst and Power BI Developer roles.</p>
+                    <p>Experienced in building machine learning model and building end to end data science product.</p>
+                    <p>Skilled at solving complex problems and supporting data-informed decision-making, making me a strong candidate for Machine learning and Data Analyst roles.</p>
                     <div class="education">
                         <h3>Education</h3>
                         <div class="education-item">
@@ -93,8 +94,10 @@
                 <div class="skill-category">
                     <h3>Libraries & Frameworks</h3>
                     <div class="skill-tags">
+                        <span class="skill-tag">Scikit-learn</span>
                         <span class="skill-tag">Pandas</span>
                         <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">FastAPI</span>
                         <span class="skill-tag">Streamlit</span>
                     </div>
                 </div>
@@ -103,7 +106,7 @@
                     <div class="skill-tags">
                         <span class="skill-tag">MySQL</span>
                         <span class="skill-tag">MS SQL</span>
-                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Qdrant DB</span>
                         <span class="skill-tag">GCP</span>
                     </div>
                 </div>
@@ -114,18 +117,19 @@
                         <span class="skill-tag">GitHub</span>
                         <span class="skill-tag">Jupyter Notebook</span>
                         <span class="skill-tag">PyCharm</span>
-                        <span class="skill-tag">Power Query</span>
+                        <span class="skill-tag">Docker</span>
                         <span class="skill-tag">Power Automate</span>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h3>Core Competencies</h3>
                     <div class="skill-tags">
+                        <span class="skill-tag">Data Science</span>
                         <span class="skill-tag">Mathematics</span>
                         <span class="skill-tag">Statistics</span>
                         <span class="skill-tag">Data Analysis</span>
-                        <span class="skill-tag">ETL Pipelines</span>
-                        <span class="skill-tag">DAX</span>
+                        <span class="skill-tag">NLP</span>
+                        <span class="skill-tag">Power BI</span>
                     </div>
                 </div>
             </div>
@@ -137,7 +141,34 @@
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
+
                 <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Hybrid Recommender System</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/vaibhav-patel01/Hybrid_Recommender_System" class="project-link" target="_blank">GitHub</a>
+                            <a href="https://hybrid-recommender-system.vercel.app/" class="project-link" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-badge">python</span>
+                        <span class="tech-badge">Qdrant DB</span>
+                        <span class="tech-badge">FastAPI</span>
+                        <span class="tech-badge">Frontend</span>
+                    </div>
+                    <p class="project-description">
+                        Build an Anime/Manhwa Hybrid recommender system, where you can get the recommendations and info.
+                    </p>
+                    <ul class="project-highlights">
+                        <li>Fetch over row 150K+ Metadata titles and 10M+ user ratings form Anilist API.</li>
+                        <li>Use Pandas and Dask to cleaning, feature engineering and NLP.</li>
+                        <li>Vectorize the data, build a dense and sparse matrix, upsert the embeddings separately into the vector database.</li>
+                        <li> Implemented Reciprocal Rank Fusion Algorithm (RRF, K=60) to merge content-based and item based collaborative filtering scores</li>
+                        <li>Designed, Build a 5-endpoint FastAPI backend and deploy on render and vercel.</li>
+                    </ul>
+                </div>
+                <!-- Project 2 -->
                 <div class="project-card">
                     <div class="project-header">
                         <h3>Olist E-Commerce Analytics Dashboard</h3>
@@ -161,7 +192,7 @@
                     </ul>
                 </div>
 
-                <!-- Project 2 -->
+                <!-- Project 3 -->
                 <div class="project-card">
                     <div class="project-header">
                         <h3>Financial Dashboard</h3>
@@ -186,7 +217,7 @@
                     </ul>
                 </div>
 
-                <!-- Project 3 -->
+                <!-- Project 4 -->
                 <div class="project-card">
                     <div class="project-header">
                         <h3>Olympic Web Application Dashboard</h3>
